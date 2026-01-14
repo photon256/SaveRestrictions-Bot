@@ -15,8 +15,8 @@ import os
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 # Your API ID & Hash
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+API_ID = int(os.environ.get("API_ID", "22801364"))
+API_HASH = os.environ.get("API_HASH", "38fd13fcb81f612aa703fa63d7dffec8")
 
 # Your Owner / Admin Id For Broadcast 
 ADMINS = int(os.environ.get("ADMINS", "7418759167"))
