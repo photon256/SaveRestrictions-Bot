@@ -19,14 +19,14 @@ API_ID = int(os.environ.get("API_ID", "22801364"))
 API_HASH = os.environ.get("API_HASH", "38fd13fcb81f612aa703fa63d7dffec8")
 
 # Your Owner / Admin Id For Broadcast 
-ADMINS = int(os.environ.get("ADMINS", "7418759167"))
+ADMINS = int(os.environ.get("ADMINS", "8133891177"))
 
 # Your Mongodb Database Url
 DB_URI = os.environ.get("DB_URI", "mongodb+srv://abcd:abcdeas@cluster0.flillxf.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DB_NAME", "SaveRestricted")
 
 # Log Channel to Track New Users 
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003646001679"))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003717500352"))
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then False
 ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
