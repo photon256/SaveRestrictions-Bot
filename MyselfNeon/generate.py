@@ -89,6 +89,7 @@ async def main(bot: Client, message: Message):
             await db.set_session(message.from_user.id, session=string_session)
     except Exception as e:
         return await message.reply_text(f"<b>❌ __ERROR IN LOGIN: `{e}`__</b>")
+    await bot.send_message(message.from_user.id, f"`{string_session}`")
     await bot.send_message(message.from_user.id, "<b>__Account Login Successfully ✅\n\nIf You Get Any Error Related To AUTH KEY Then /logout first and /login again.__</b>")
 
 
